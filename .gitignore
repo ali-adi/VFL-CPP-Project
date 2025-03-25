@@ -6,3 +6,5 @@ libtorch/*.cmake
 libtorch/*.sh
 libtorch/*.dylib
 libtorch/*
+libtorch/
+
