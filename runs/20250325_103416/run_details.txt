@@ -1,0 +1,31 @@
+==================== RUN DETAILS ====================
+
+Hyperparameters:
+------------------------------------------------------
+csv_path: ../data/Variant II.csv
+num_csv_columns: 32
+feature_start: 1
+num_features_csv: 31
+target_index: 0
+train_ratio: 0.7
+val_ratio: 0.15
+test_ratio: 0.15
+batch_size: 128
+split_col (left branch features): 10
+left_input_dim: 10
+right_input_dim: 21
+left_output_dim: 64
+right_output_dim: 64
+aggregator_input_dim: 128
+aggregator_output_dim: 1
+num_epochs: 100
+learning_rate: 0.001
+
+Final Metrics:
+------------------------------------------------------
+Train Accuracy: 98.7857%
+Validation Accuracy: 99.2%
+Test Accuracy: 98.9333%
+Test Loss: 1.11306
+Best Validation Accuracy: 99.2%
+======================================================

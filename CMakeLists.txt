@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
 project(VFL_CPP_Project)
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -11,7 +12,15 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 add_executable(vfl_main 
     src/main.cpp
     src/DataUtils.cpp
+    src/Parameters.cpp
+    src/CSVParser.cpp
+    src/DatasetLoader.cpp
+    # If TrainUtils.h is header-only, no need for a TrainUtils.cpp file.
 )
 
 target_link_libraries(vfl_main "${TORCH_LIBRARIES}")
 
+set_property(TARGET vfl_main PROPERTY CXX_STANDARD 17)
+set_target_properties(vfl_main PROPERTIES
+    INSTALL_RPATH "${TORCH_INSTALL_RPATH}"
+)

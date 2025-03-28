@@ -100,16 +100,64 @@ CMakeFiles/vfl_main.dir/src/DataUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vfl_main.dir/src/DataUtils.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/DataUtils.cpp -o CMakeFiles/vfl_main.dir/src/DataUtils.cpp.s
 
+CMakeFiles/vfl_main.dir/src/Parameters.cpp.o: CMakeFiles/vfl_main.dir/flags.make
+CMakeFiles/vfl_main.dir/src/Parameters.cpp.o: /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/Parameters.cpp
+CMakeFiles/vfl_main.dir/src/Parameters.cpp.o: CMakeFiles/vfl_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vfl_main.dir/src/Parameters.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vfl_main.dir/src/Parameters.cpp.o -MF CMakeFiles/vfl_main.dir/src/Parameters.cpp.o.d -o CMakeFiles/vfl_main.dir/src/Parameters.cpp.o -c /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/Parameters.cpp
+
+CMakeFiles/vfl_main.dir/src/Parameters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vfl_main.dir/src/Parameters.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/Parameters.cpp > CMakeFiles/vfl_main.dir/src/Parameters.cpp.i
+
+CMakeFiles/vfl_main.dir/src/Parameters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vfl_main.dir/src/Parameters.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/Parameters.cpp -o CMakeFiles/vfl_main.dir/src/Parameters.cpp.s
+
+CMakeFiles/vfl_main.dir/src/CSVParser.cpp.o: CMakeFiles/vfl_main.dir/flags.make
+CMakeFiles/vfl_main.dir/src/CSVParser.cpp.o: /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/CSVParser.cpp
+CMakeFiles/vfl_main.dir/src/CSVParser.cpp.o: CMakeFiles/vfl_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vfl_main.dir/src/CSVParser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vfl_main.dir/src/CSVParser.cpp.o -MF CMakeFiles/vfl_main.dir/src/CSVParser.cpp.o.d -o CMakeFiles/vfl_main.dir/src/CSVParser.cpp.o -c /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/CSVParser.cpp
+
+CMakeFiles/vfl_main.dir/src/CSVParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vfl_main.dir/src/CSVParser.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/CSVParser.cpp > CMakeFiles/vfl_main.dir/src/CSVParser.cpp.i
+
+CMakeFiles/vfl_main.dir/src/CSVParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vfl_main.dir/src/CSVParser.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/CSVParser.cpp -o CMakeFiles/vfl_main.dir/src/CSVParser.cpp.s
+
+CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.o: CMakeFiles/vfl_main.dir/flags.make
+CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.o: /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/DatasetLoader.cpp
+CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.o: CMakeFiles/vfl_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.o -MF CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.o.d -o CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.o -c /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/DatasetLoader.cpp
+
+CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/DatasetLoader.cpp > CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.i
+
+CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/src/DatasetLoader.cpp -o CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.s
+
 # Object files for target vfl_main
 vfl_main_OBJECTS = \
 "CMakeFiles/vfl_main.dir/src/main.cpp.o" \
-"CMakeFiles/vfl_main.dir/src/DataUtils.cpp.o"
+"CMakeFiles/vfl_main.dir/src/DataUtils.cpp.o" \
+"CMakeFiles/vfl_main.dir/src/Parameters.cpp.o" \
+"CMakeFiles/vfl_main.dir/src/CSVParser.cpp.o" \
+"CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.o"
 
 # External object files for target vfl_main
 vfl_main_EXTERNAL_OBJECTS =
 
 vfl_main: CMakeFiles/vfl_main.dir/src/main.cpp.o
 vfl_main: CMakeFiles/vfl_main.dir/src/DataUtils.cpp.o
+vfl_main: CMakeFiles/vfl_main.dir/src/Parameters.cpp.o
+vfl_main: CMakeFiles/vfl_main.dir/src/CSVParser.cpp.o
+vfl_main: CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.o
 vfl_main: CMakeFiles/vfl_main.dir/build.make
 vfl_main: /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/libtorch/lib/libc10.dylib
 vfl_main: /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/libtorch/lib/libkineto.a
@@ -117,7 +165,7 @@ vfl_main: /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/libtorch/lib/libto
 vfl_main: /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/libtorch/lib/libtorch_cpu.dylib
 vfl_main: /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/libtorch/lib/libc10.dylib
 vfl_main: CMakeFiles/vfl_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable vfl_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable vfl_main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vfl_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

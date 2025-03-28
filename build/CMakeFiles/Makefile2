@@ -85,12 +85,12 @@ clean: CMakeFiles/vfl_main.dir/clean
 CMakeFiles/vfl_main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/build/CMakeFiles --progress-num=1,2,3 "Built target vfl_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target vfl_main"
 .PHONY : CMakeFiles/vfl_main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vfl_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/vfl_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/build/CMakeFiles 0
 .PHONY : CMakeFiles/vfl_main.dir/rule
@@ -102,7 +102,7 @@ vfl_main: CMakeFiles/vfl_main.dir/rule
 # codegen rule for target.
 CMakeFiles/vfl_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target vfl_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ali/root/University/Y4S2/DTC/VFL-CPP-Project/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target vfl_main"
 .PHONY : CMakeFiles/vfl_main.dir/codegen
 
 # clean rule for target.

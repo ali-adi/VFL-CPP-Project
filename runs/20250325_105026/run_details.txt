@@ -1,0 +1,31 @@
+==================== RUN DETAILS ====================
+
+Hyperparameters:
+------------------------------------------------------
+csv_path: ../data/default_of_credit_card_clients-balanced.csv
+num_csv_columns: 25
+feature_start: 0
+num_features_csv: 23
+target_index: 24
+train_ratio: 0.7
+val_ratio: 0.15
+test_ratio: 0.15
+batch_size: 128
+split_col: 11
+left_input_dim: 11
+right_input_dim: 12
+left_output_dim: 64
+right_output_dim: 64
+aggregator_input_dim: 128
+aggregator_output_dim: 1
+num_epochs: 50
+learning_rate: 0.001
+
+Final Metrics:
+------------------------------------------------------
+Train Accuracy: 77.5429%
+Validation Accuracy: 77.7333%
+Test Accuracy: 77.8667%
+Test Loss: 2.21444
+Best Validation Accuracy: 77.7333%
+======================================================

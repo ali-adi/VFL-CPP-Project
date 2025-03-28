@@ -129,6 +129,30 @@ vfl_main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/build
 .PHONY : vfl_main/fast
 
+src/CSVParser.o: src/CSVParser.cpp.o
+.PHONY : src/CSVParser.o
+
+# target to build an object file
+src/CSVParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/src/CSVParser.cpp.o
+.PHONY : src/CSVParser.cpp.o
+
+src/CSVParser.i: src/CSVParser.cpp.i
+.PHONY : src/CSVParser.i
+
+# target to preprocess a source file
+src/CSVParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/src/CSVParser.cpp.i
+.PHONY : src/CSVParser.cpp.i
+
+src/CSVParser.s: src/CSVParser.cpp.s
+.PHONY : src/CSVParser.s
+
+# target to generate assembly for a file
+src/CSVParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/src/CSVParser.cpp.s
+.PHONY : src/CSVParser.cpp.s
+
 src/DataUtils.o: src/DataUtils.cpp.o
 .PHONY : src/DataUtils.o
 
@@ -152,6 +176,54 @@ src/DataUtils.s: src/DataUtils.cpp.s
 src/DataUtils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/src/DataUtils.cpp.s
 .PHONY : src/DataUtils.cpp.s
+
+src/DatasetLoader.o: src/DatasetLoader.cpp.o
+.PHONY : src/DatasetLoader.o
+
+# target to build an object file
+src/DatasetLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.o
+.PHONY : src/DatasetLoader.cpp.o
+
+src/DatasetLoader.i: src/DatasetLoader.cpp.i
+.PHONY : src/DatasetLoader.i
+
+# target to preprocess a source file
+src/DatasetLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.i
+.PHONY : src/DatasetLoader.cpp.i
+
+src/DatasetLoader.s: src/DatasetLoader.cpp.s
+.PHONY : src/DatasetLoader.s
+
+# target to generate assembly for a file
+src/DatasetLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/src/DatasetLoader.cpp.s
+.PHONY : src/DatasetLoader.cpp.s
+
+src/Parameters.o: src/Parameters.cpp.o
+.PHONY : src/Parameters.o
+
+# target to build an object file
+src/Parameters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/src/Parameters.cpp.o
+.PHONY : src/Parameters.cpp.o
+
+src/Parameters.i: src/Parameters.cpp.i
+.PHONY : src/Parameters.i
+
+# target to preprocess a source file
+src/Parameters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/src/Parameters.cpp.i
+.PHONY : src/Parameters.cpp.i
+
+src/Parameters.s: src/Parameters.cpp.s
+.PHONY : src/Parameters.s
+
+# target to generate assembly for a file
+src/Parameters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vfl_main.dir/build.make CMakeFiles/vfl_main.dir/src/Parameters.cpp.s
+.PHONY : src/Parameters.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... vfl_main"
+	@echo "... src/CSVParser.o"
+	@echo "... src/CSVParser.i"
+	@echo "... src/CSVParser.s"
 	@echo "... src/DataUtils.o"
 	@echo "... src/DataUtils.i"
 	@echo "... src/DataUtils.s"
+	@echo "... src/DatasetLoader.o"
+	@echo "... src/DatasetLoader.i"
+	@echo "... src/DatasetLoader.s"
+	@echo "... src/Parameters.o"
+	@echo "... src/Parameters.i"
+	@echo "... src/Parameters.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

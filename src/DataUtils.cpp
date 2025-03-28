@@ -16,27 +16,6 @@ std::vector<std::string> split(const std::string &s, char delimiter) {
     return tokens;
 }
 
-std::vector<std::vector<std::string>> loadCSV(const std::string &filename) {
-    std::vector<std::vector<std::string>> data;
-    std::ifstream file(filename);
-    if (!file.is_open()) {
-        std::cerr << "ERROR: Could not open file: " << filename << std::endl;
-        return data;
-    }
-    std::string line;
-    bool skip_header = true;
-    while (std::getline(file, line)) {
-        if (skip_header) {
-            skip_header = false;
-            continue;
-        }
-        auto tokens = split(line, ',');
-        data.push_back(tokens);
-    }
-    file.close();
-    return data;
-}
-
 std::pair<torch::Tensor, torch::Tensor> verticalSplit(const torch::Tensor &full_features, int64_t split_col) {
     auto left = full_features.slice(/*dim=*/1, 0, split_col);
     auto right = full_features.slice(/*dim=*/1, split_col, full_features.size(1));
